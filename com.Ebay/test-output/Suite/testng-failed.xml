@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Ebay_StepDefinitions.ebay_sd">
+        <methods>
+          <include name="select_price_range_from_to"/>
+          <include name="remove_yrs_plan_from_cart"/>
+          <include name="go_to_Checkout"/>
+          <include name="validate_login_failure"/>
+          <include name="search_Vintage_Watches_again"/>
+          <include name="add_to_cart_without_plan"/>
+          <include name="close_the_browser"/>
+          <include name="search_Vintage_Watches"/>
+          <include name="provide_invalid_credentials"/>
+          <include name="click_on_Vintage_soviet_MAJAK_m_Watch"/>
+          <include name="select_gender_as_man"/>
+          <include name="sort_price_low_to_High"/>
+          <include name="click_Vintage_Waltham_Art_Deco_Watch_Runs"/>
+          <include name="user_Opens_Chrome_Browser_and_enter_URL"/>
+        </methods>
+      </class> <!-- Ebay_StepDefinitions.ebay_sd -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

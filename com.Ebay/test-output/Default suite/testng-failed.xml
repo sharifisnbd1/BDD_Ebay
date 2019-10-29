@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Ebay_StepDefinitions.ebay_sd">
+        <methods>
+          <include name="remove_yrs_plan_from_cart"/>
+          <include name="select_gender_as_man"/>
+          <include name="go_to_Checkout"/>
+          <include name="validate_login_failure"/>
+          <include name="sort_price_low_to_High"/>
+          <include name="add_to_cart_without_plan"/>
+          <include name="click_Vintage_Waltham_Art_Deco_Watch_Runs"/>
+          <include name="provide_invalid_credentials"/>
+        </methods>
+      </class> <!-- Ebay_StepDefinitions.ebay_sd -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

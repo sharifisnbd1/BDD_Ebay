@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\shari\eclipse-workspace\com.Ebay\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 14 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="add_to_cart_without_plan">add_to_cart_without_plan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="click_Vintage_Waltham_Art_Deco_Watch_Runs">click_Vintage_Waltham_Art_Deco_Watch_Runs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="click_on_Vintage_soviet_MAJAK_m_Watch">click_on_Vintage_soviet_MAJAK_m_Watch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="close_the_browser">close_the_browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="go_to_Checkout">go_to_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="provide_invalid_credentials">provide_invalid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="remove_yrs_plan_from_cart">remove_yrs_plan_from_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="search_Vintage_Watches">search_Vintage_Watches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="search_Vintage_Watches_again">search_Vintage_Watches_again</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="select_gender_as_man">select_gender_as_man</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="select_price_range_from_to">select_price_range_from_to</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="sort_price_low_to_High">sort_price_low_to_High</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="user_Opens_Chrome_Browser_and_enter_URL">user_Opens_Chrome_Browser_and_enter_URL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Ebay_StepDefinitions.ebay_sd" hash-for-method="validate_login_failure">validate_login_failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Ebay_StepDefinitions.ebay_sd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_to_cart_without_plan">
+                  </a> <!-- add_to_cart_without_plan -->
+                  <span class="method-name">add_to_cart_without_plan</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.add_to_cart_without_plan(ebay_sd.java:90)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_Vintage_Waltham_Art_Deco_Watch_Runs">
+                  </a> <!-- click_Vintage_Waltham_Art_Deco_Watch_Runs -->
+                  <span class="method-name">click_Vintage_Waltham_Art_Deco_Watch_Runs</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.click_Vintage_Waltham_Art_Deco_Watch_Runs(ebay_sd.java:84)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_Vintage_soviet_MAJAK_m_Watch">
+                  </a> <!-- click_on_Vintage_soviet_MAJAK_m_Watch -->
+                  <span class="method-name">click_on_Vintage_soviet_MAJAK_m_Watch</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.click_on_Vintage_soviet_MAJAK_m_Watch(ebay_sd.java:65)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="close_the_browser">
+                  </a> <!-- close_the_browser -->
+                  <span class="method-name">close_the_browser</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.close_the_browser(ebay_sd.java:126)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="go_to_Checkout">
+                  </a> <!-- go_to_Checkout -->
+                  <span class="method-name">go_to_Checkout</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.go_to_Checkout(ebay_sd.java:104)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="provide_invalid_credentials">
+                  </a> <!-- provide_invalid_credentials -->
+                  <span class="method-name">provide_invalid_credentials</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.provide_invalid_credentials(ebay_sd.java:109)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="remove_yrs_plan_from_cart">
+                  </a> <!-- remove_yrs_plan_from_cart -->
+                  <span class="method-name">remove_yrs_plan_from_cart</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.remove_yrs_plan_from_cart(ebay_sd.java:97)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_Vintage_Watches">
+                  </a> <!-- search_Vintage_Watches -->
+                  <span class="method-name">search_Vintage_Watches</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.search_Vintage_Watches(ebay_sd.java:37)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_Vintage_Watches_again">
+                  </a> <!-- search_Vintage_Watches_again -->
+                  <span class="method-name">search_Vintage_Watches_again</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.search_Vintage_Watches_again(ebay_sd.java:78)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_gender_as_man">
+                  </a> <!-- select_gender_as_man -->
+                  <span class="method-name">select_gender_as_man</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.select_gender_as_man(ebay_sd.java:59)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_price_range_from_to">
+                  </a> <!-- select_price_range_from_to -->
+                  <span class="method-name">select_price_range_from_to</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.select_price_range_from_to(ebay_sd.java:53)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_price_low_to_High">
+                  </a> <!-- sort_price_low_to_High -->
+                  <span class="method-name">sort_price_low_to_High</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Unknown Source)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:66)
+	at Ebay_StepDefinitions.ebay_sd.sort_price_low_to_High(ebay_sd.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Opens_Chrome_Browser_and_enter_URL">
+                  </a> <!-- user_Opens_Chrome_Browser_and_enter_URL -->
+                  <span class="method-name">user_Opens_Chrome_Browser_and_enter_URL</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Ebay_StepDefinitions.ebay_sd.user_Opens_Chrome_Browser_and_enter_URL(ebay_sd.java:25)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_login_failure">
+                  </a> <!-- validate_login_failure -->
+                  <span class="method-name">validate_login_failure</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Ebay_StepDefinitions.ebay_sd.validate_login_failure(ebay_sd.java:116)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shari\eclipse-workspace\com.Ebay\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Ebay_StepDefinitions.ebay_sd&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_Opens_Chrome_Browser_and_enter_URL')
+data.setCell(0, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(0, 3, 100);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sort_price_low_to_High')
+data.setCell(1, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(1, 3, 38);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'click_Vintage_Waltham_Art_Deco_Watch_Runs')
+data.setCell(2, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(2, 3, 16);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'search_Vintage_Watches')
+data.setCell(3, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'close_the_browser')
+data.setCell(4, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(4, 3, 15);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search_Vintage_Watches_again')
+data.setCell(5, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'select_gender_as_man')
+data.setCell(6, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'click_on_Vintage_soviet_MAJAK_m_Watch')
+data.setCell(7, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_login_failure')
+data.setCell(8, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'add_to_cart_without_plan')
+data.setCell(9, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'go_to_Checkout')
+data.setCell(10, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'remove_yrs_plan_from_cart')
+data.setCell(11, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'select_price_range_from_to')
+data.setCell(12, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'provide_invalid_credentials')
+data.setCell(13, 2, 'Ebay_StepDefinitions.ebay_sd')
+data.setCell(13, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 184 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ebay_StepDefinitions.ebay_sd</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_Opens_Chrome_Browser_and_enter_URL</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search_Vintage_Watches</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sort_price_low_to_High</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">select_price_range_from_to</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">select_gender_as_man</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_on_Vintage_soviet_MAJAK_m_Watch</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search_Vintage_Watches_again</span>
+                <span class="method-start">216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_Vintage_Waltham_Art_Deco_Watch_Runs</span>
+                <span class="method-start">216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_to_cart_without_plan</span>
+                <span class="method-start">232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">remove_yrs_plan_from_cart</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">go_to_Checkout</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">provide_invalid_credentials</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_login_failure</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">close_the_browser</span>
+                <span class="method-start">263 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
