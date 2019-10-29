@@ -5,6 +5,10 @@ import org.testng.annotations.Test;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
+
+//TestRunner configuration and change check in github
+
+
 @CucumberOptions(
 		plugin= {"pretty","html:target/cucumber", "json:target/cucumber.json"},
 		
