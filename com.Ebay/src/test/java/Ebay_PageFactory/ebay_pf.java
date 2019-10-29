@@ -12,8 +12,7 @@ public class ebay_pf {
 	public void ebayPageFactory(WebDriver driver){
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
-		// check change
-		
+		// check change	
 	}
 	@FindBy(how=How.XPATH,using="//input[@id='gh-ac']")
 	private WebElement Search1;
